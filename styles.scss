@@ -589,7 +589,8 @@ footer {
 }
 /* Original flower assets frame the opening, cropped at the page edges. */
 .hero {
-  min-height: max(860px, 73vw);
+  height: 100vh;
+  min-height: 720px;
   padding-top: clamp(70px, 6vw, 110px);
   isolation: isolate;
 }
@@ -652,7 +653,7 @@ footer {
 
 @media (max-width: 900px) {
   .hero {
-    min-height: 850px;
+    min-height: 760px;
     padding-top: 75px;
   }
   .hero-copy {
@@ -681,7 +682,7 @@ footer {
 }
 @media (max-width: 600px) {
   .hero {
-    min-height: 890px;
+    min-height: 740px;
     padding-top: 60px;
   }
   .hero-copy {
